@@ -12,13 +12,16 @@ form.addEventListener("submit", function(event) {
     if (!email.includes("@")) {
         event.preventDefault();
         erro.textContent = "E-mail inválido!";
+        
 
 }
-    if (campoIdade >= 0); 
+    if (campoIdade >= 0); {
     event.preventDefault();
     erro.textContent = "Idade invalida!";
+
+    }
     
     
-<script src="validacao.html"></script>
+
 
 });
